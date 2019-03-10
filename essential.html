@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required Meta Tags -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- Page Title -->
+  <title>粨合</title>
+
+  <!-- Favicon -->
+
+  <!-- CSS Files -->
+  <link rel="stylesheet" href="assets/css/animate-3.7.0.css">
+  <link rel="stylesheet" href="assets/css/font-awesome-4.7.0.min.css">
+  <link rel="stylesheet" href="assets/fonts/flat-icon/flaticon.css">
+  <link rel="stylesheet" href="assets/css/bootstrap-4.1.3.min.css">
+  <link rel="stylesheet" href="assets/css/owl-carousel.min.css">
+  <link rel="stylesheet" href="assets/css/nice-select.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <style>
+    .bannerOuter {
+      position: relative;
+    }
+
+
+    .boxCatgory {
+      margin-bottom: 30px;
+    }
+
+    .nav-pills .nav-link {
+      border-radius: 5px;
+      text-align: left;
+      padding: 5px 20px;
+      color: #fff;
+      margin-left: 15px;
+      background-color: #e4b7d6;
+      font-size: 18px;
+
+    }
+
+    .nav-pills .nav-link.active,
+    .nav-pills .show>.nav-link {
+      color: #fff;
+      font-size: 18px;
+      font-weight: bold;
+      background-color: #b31181;
+    }
+  </style>
+  <script>
+    function includeHTML() {
+      var z, i, elmnt, file, xhttp;
+      /*loop through a collection of all HTML elements:*/
+      z = document.getElementsByTagName("*");
+      for (i = 0; i < z.length; i++) {
+        elmnt = z[i];
+        /*search for elements with a certain atrribute:*/
+        file = elmnt.getAttribute("w3-include-html");
+        if (file) {
+          /*make an HTTP request using the attribute value as the file name:*/
+          xhttp = new XMLHttpRequest();
+          xhttp.onreadystatechange = function () {
+            if (this.readyState == 4) {
+              if (this.status == 200) {
+                elmnt.innerHTML = this.responseText;
+              }
+              if (this.status == 404) {
+                elmnt.innerHTML = "Page not found.";
+              }
+              /*remove the attribute, and call this function once more:*/
+              elmnt.removeAttribute("w3-include-html");
+              includeHTML();
+            }
+          }
+          xhttp.open("GET", file, true);
+          xhttp.send();
+          /*exit the function:*/
+          return;
+        }
+      }
+    };
+  </script>
+</head>
+
+<body>
+  <!-- Preloader Starts -->
+  <div class="preloader">
+    <div class="spinner"></div>
+  </div>
+  <!-- Preloader End -->
+
+  <!-- Header -->
+  <div w3-include-html="header.html"></div>
+  <!-- Header End-->
+
+  <!-- Banner Area Starts -->
+  <section class="banner-area">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-12 px-0">
+          <div class="bannerOuter">
+            <div class="tilePosition">
+              <div class="bannerTtile">
+                產品項目
+              </div>
+              <div class="bannerSubTtile">
+                精油
+              </div>
+            </div>
+            <div class="banner-bg">
+              <img src="./assets//images/venus/essentialBanner.jpg">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Banner Area End -->
+
+
+
+  <!-- Category Area Starts -->
+  <section class="category-area section-padding">
+    <div class="container">
+      <div class="col-md-12">
+        <ul class="nav nav-pills">
+          <li class="nav-item">
+            <a class="nav-link active" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home"
+              aria-selected="true">認識粨合</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile"
+              aria-selected="false">產品介紹</a>
+          </li>
+
+        </ul>
+        <br>
+        <div class="tab-content" id="pills-tabContent" style="color:#000;margin-bottom: 50px;    letter-spacing: 3px;
+      line-height: 2.2;">
+          <!-- 天然精油 -->
+          <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+            <h3>天然精油</h3>
+            <br>
+            <div class="row">
+              <div class="col-md-6 boxCatgory">
+                <h4>簡介及原料來源</h4>
+                <div>
+                  <ul>
+                    <li>
+                      天然精油簡介：精油是萃取植物特有的芳香物質，取自於草本植物的花、葉、根、樹皮、果實、種子、樹脂等以蒸餾、壓榨方式提煉出來的。
+                    </li>
+                    <li> 原料來源：粨合所提供的100%天然單方精油源自於國外供應商的先進設備與歷史悠久的專業技術。 更重要的是，供應商對於原料來源及產地的挑選有著多重考量，包括土質、溫度、濕度、緯度、海拔等因素，
+                      藉以取得最優質的精油。
+                    </li>
+                  </ul>
+
+                </div>
+              </div>
+              <div class="col-md-6 boxCatgory">
+                <h4>製程與效用</h4>
+                <div>
+                  <ul>
+                    <li>
+                      取得方法：精油由於製造過程煩瑣，原料取得不易，無法大量生產。植物有適合栽種的區域，同樣的植物在不同區域、氣候對精油的效果會不同，受過污染與未污染的植物也有差異，加上精油的提煉需要大量的植物，200公斤的薰衣草只能提煉1公斤的精油，2到4公噸的玫瑰只能提煉1公斤的精油。
+                    </li>
+                    <li>
+                      效用：精油分子小容易被人體吸收，能迅速滲透人體內器官，平衡體內機能，達到美容護膚的作用。精油可以漸進緩和的方式帶動身心靈的調和。可想而知精油對人體的奧秘是無比寬廣的。
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- 天然精油 end -->
+          <!-- 有機精油 -->
+          <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+            <h3>有機認證精油</h3>
+            <br>
+            <div class="row">
+              <div class="col-md-6 boxCatgory">
+                <h4>簡介及官方認證</h4>
+                <div>
+                  有機環境下生長的植物，水源、土壤、空氣都要受到嚴格的安全控制和污染監測，植物的生長環境得到淨化，各項指標均達到有機標準。在這樣的環境中生長起來的植物健康而沒有污染，從它們身上萃取的精油就是有機精油。粨合所提供的有機精油，皆由美國農業部(USDA)頒發“有機證書"。
+                </div>
+              </div>
+              <div class="col-md-6 boxCatgory">
+                <h4>取得方法</h4>
+                <div>
+                  <ul>
+                    <li>
+                      有機精油是從植物的花、葉、莖、根或果實中，通過水蒸氣蒸餾法、擠壓法、冷浸法或萃取法提煉萃取的揮發性芳香物質。 </li>
+                    <li>
+                      有機植物精油的萃取要求極為嚴格，拒絕使用溶劑提取和醇提提取的萃取模式，以確保精油的品質。
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-12 boxCatgory">
+                <h4>複方精油作用</h4>
+                <div class="row">
+                  <div class="col-md-6">
+                    <ul>
+                      <li>
+                        有機精油天然的芳香經由嗅覺，使精神呈現最舒適的狀態，是守護心靈的天然良方。精油本質可預防發炎、促進細胞新陳代謝及再生功能，某些精油還能調節內分泌器官，促進荷爾蒙分泌，讓人體的生理及心理活動，均獲得良好的平衡。
+                      </li>
+                      <li>
+                        複方精油是為了達到特定療效將2種以上的精油混合，相互協調、相輔相成、增強的作用。故複方精油的製程相當倚賴於不同植物的收成、萃取、蒸餾與相互作用有瞭若指掌的認知，才能有效達成平衡。
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-md-6">
+                    <img src="./assets//images/venus/essential_fun.png" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- 有機精油 end -->
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+  <!-- Category Area End -->
+
+  <!-- Footer -->
+  <div w3-include-html="footer.html"></div>
+  <!-- Footer End-->
+
+
+  <script>
+    includeHTML();
+  </script>
+  <!-- Javascript -->
+  <script src="assets/js/vendor/jquery-2.2.4.min.js"></script>
+  <script src="assets/js/vendor/bootstrap-4.1.3.min.js"></script>
+  <script src="assets/js/vendor/wow.min.js"></script>
+  <script src="assets/js/vendor/owl-carousel.min.js"></script>
+  <script src="assets/js/vendor/jquery.nice-select.min.js"></script>
+  <script src="assets/js/vendor/ion.rangeSlider.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>

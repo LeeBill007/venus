@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required Meta Tags -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- Page Title -->
+  <title>粨合</title>
+
+  <!-- Favicon -->
+
+  <!-- CSS Files -->
+  <link rel="stylesheet" href="assets/css/animate-3.7.0.css">
+  <link rel="stylesheet" href="assets/css/font-awesome-4.7.0.min.css">
+  <link rel="stylesheet" href="assets/fonts/flat-icon/flaticon.css">
+  <link rel="stylesheet" href="assets/css/bootstrap-4.1.3.min.css">
+  <link rel="stylesheet" href="assets/css/owl-carousel.min.css">
+  <link rel="stylesheet" href="assets/css/nice-select.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <style>
+    .bannerOuter {
+      position: relative;
+    }
+
+    .bannerLog {
+      position: absolute;
+      z-index: 1;
+      top: 10%;
+      left: 45%;
+      color: #fff;
+    }
+
+    .bannerLog img {
+      max-width: 200px;
+    }
+
+    .boxCatgory {
+      margin-bottom: 30px;
+    }
+
+    .boxCatgory span {
+      color: #777;
+      padding-left: 20px;
+      font-size: 14px;
+    }
+
+    .matBackground {
+      background: url("./assets/images/venus/bg.jpg");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+
+    .table td,
+    .table th {
+      padding: .1rem;
+    }
+  </style>
+  <script>
+    function includeHTML() {
+      var z, i, elmnt, file, xhttp;
+      /*loop through a collection of all HTML elements:*/
+      z = document.getElementsByTagName("*");
+      for (i = 0; i < z.length; i++) {
+        elmnt = z[i];
+        /*search for elements with a certain atrribute:*/
+        file = elmnt.getAttribute("w3-include-html");
+        if (file) {
+          /*make an HTTP request using the attribute value as the file name:*/
+          xhttp = new XMLHttpRequest();
+          xhttp.onreadystatechange = function () {
+            if (this.readyState == 4) {
+              if (this.status == 200) {
+                elmnt.innerHTML = this.responseText;
+              }
+              if (this.status == 404) {
+                elmnt.innerHTML = "Page not found.";
+              }
+              /*remove the attribute, and call this function once more:*/
+              elmnt.removeAttribute("w3-include-html");
+              includeHTML();
+            }
+          }
+          xhttp.open("GET", file, true);
+          xhttp.send();
+          /*exit the function:*/
+          return;
+        }
+      }
+    };
+  </script>
+</head>
+
+<body>
+  <!-- Preloader Starts -->
+  <div class="preloader">
+    <div class="spinner"></div>
+  </div>
+  <!-- Preloader End -->
+
+  <!-- Header -->
+  <div w3-include-html="header.html"></div>
+  <!-- Header End-->
+
+  <!-- Banner Area Starts -->
+  <section class="banner-area">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-12 px-0">
+          <div class="bannerOuter">
+              <div class="tilePosition">
+                  <div class="bannerTtile">
+                    產品項目
+                  </div>
+                  <div class="bannerSubTtile">
+                    生化原料
+                  </div>
+                </div>
+            <div class="banner-bg">
+              <img src="./assets//images/venus/materialBanner.jpg">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Banner Area End -->
+
+
+
+  <!-- Category Area Starts -->
+  <section class="category-area section-padding matBackground">
+    <div class="container">
+      <div class="tab-content" id="pills-tabContent" style="color:#000;margin-bottom: 50px;letter-spacing: 3px;
+      line-height: 2.2;">
+        <!-- 按摩泡澡精油 -->
+        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+          <h3>生化原料</h3>
+          <div class="row">
+            <div class="col-md-6 boxCatgory">
+              <img src="./assets//images/venus/material.png">
+            </div>
+            <div class="col-md-6 boxCatgory">
+              <div>
+                <table class="table table-borderless">
+                  <tr>
+                    <td>膠原蛋白</td>
+                    <td>&nbsp;—&nbsp;</td>
+                    <td>Collagen</td>
+                  </tr>
+                  <tr>
+                    <td>彈力蛋白</td>
+                    <td>&nbsp;—&nbsp;</td>
+                    <td>Elastin</td>
+                  </tr>
+                  <tr>
+                    <td>超高保濕劑</td>
+                    <td>&nbsp;—&nbsp;</td>
+                    <td>Hygroplex HHG</td>
+                  </tr>
+                  <tr>
+                    <td>生髮抗掉髮活化素</td>
+                    <td>&nbsp;—&nbsp;</td>
+                    <td>Follicusan </td>
+                  </tr>
+                  <tr>
+                    <td>草本複方健髮</td>
+                    <td>&nbsp;—&nbsp;</td>
+                    <td>Hexaplant Richter</td>
+                  </tr>
+                  <tr>
+                    <td>亮白素</td>
+                    <td>&nbsp;—&nbsp;</td>
+                    <td>Belides NP</td>
+                  </tr>
+                  <tr>
+                    <td>牛奶蛋白</td>
+                    <td>&nbsp;—&nbsp;</td>
+                    <td>Lactiokine Fluid</td>
+                  </tr>
+                  <tr>
+                    <td>乳清蛋白</td>
+                    <td>&nbsp;—&nbsp;</td>
+                    <td>MPC-Milk<br>Peptide Complex</td>
+                  </tr>
+                  <tr>
+                    <td>磷脂和乳清蛋白</td>
+                    <td>&nbsp;—&nbsp;</td>
+                    <td>MPC-Liposomes</td>
+                  </tr>
+                  <tr>
+                    <td>水釘子</td>
+                    <td>&nbsp;—&nbsp;</td>
+                    <td>Glycoderm</td>
+                  </tr>
+                </table>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <!-- 按摩泡澡精油 end -->
+
+
+      </div>
+
+    </div>
+  </section>
+  <!-- Category Area End -->
+
+  <!-- Footer -->
+  <div w3-include-html="footer.html"></div>
+  <!-- Footer End-->
+
+
+  <script>
+    includeHTML();
+  </script>
+  <!-- Javascript -->
+  <script src="assets/js/vendor/jquery-2.2.4.min.js"></script>
+  <script src="assets/js/vendor/bootstrap-4.1.3.min.js"></script>
+  <script src="assets/js/vendor/wow.min.js"></script>
+  <script src="assets/js/vendor/owl-carousel.min.js"></script>
+  <script src="assets/js/vendor/jquery.nice-select.min.js"></script>
+  <script src="assets/js/vendor/ion.rangeSlider.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>

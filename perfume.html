@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required Meta Tags -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- Page Title -->
+  <title>粨合</title>
+
+  <!-- Favicon -->
+
+  <!-- CSS Files -->
+  <link rel="stylesheet" href="assets/css/animate-3.7.0.css">
+  <link rel="stylesheet" href="assets/css/font-awesome-4.7.0.min.css">
+  <link rel="stylesheet" href="assets/fonts/flat-icon/flaticon.css">
+  <link rel="stylesheet" href="assets/css/bootstrap-4.1.3.min.css">
+  <link rel="stylesheet" href="assets/css/owl-carousel.min.css">
+  <link rel="stylesheet" href="assets/css/nice-select.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <style>
+    .bannerOuter {
+      position: relative;
+    }
+
+
+    .boxCatgory {
+      margin-bottom: 30px;
+    }
+
+    .boxCatgory p {
+      color: #000;
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+
+    .boxCatgory div {
+      color: #777;
+    }
+  </style>
+  <script>
+    function includeHTML() {
+      var z, i, elmnt, file, xhttp;
+      /*loop through a collection of all HTML elements:*/
+      z = document.getElementsByTagName("*");
+      for (i = 0; i < z.length; i++) {
+        elmnt = z[i];
+        /*search for elements with a certain atrribute:*/
+        file = elmnt.getAttribute("w3-include-html");
+        if (file) {
+          /*make an HTTP request using the attribute value as the file name:*/
+          xhttp = new XMLHttpRequest();
+          xhttp.onreadystatechange = function () {
+            if (this.readyState == 4) {
+              if (this.status == 200) {
+                elmnt.innerHTML = this.responseText;
+              }
+              if (this.status == 404) {
+                elmnt.innerHTML = "Page not found.";
+              }
+              /*remove the attribute, and call this function once more:*/
+              elmnt.removeAttribute("w3-include-html");
+              includeHTML();
+            }
+          }
+          xhttp.open("GET", file, true);
+          xhttp.send();
+          /*exit the function:*/
+          return;
+        }
+      }
+    };
+  </script>
+</head>
+
+<body>
+  <!-- Preloader Starts -->
+  <div class="preloader">
+    <div class="spinner"></div>
+  </div>
+  <!-- Preloader End -->
+
+  <!-- Header -->
+  <div w3-include-html="header.html"></div>
+  <!-- Header End-->
+
+  <!-- Banner Area Starts -->
+  <section class="banner-area">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-12 px-0">
+          <div class="bannerOuter">
+            <div class="tilePosition">
+              <div class="bannerTtile">
+                產品項目
+              </div>
+              <div class="bannerSubTtile">
+                香調
+              </div>
+            </div>
+            <div class="banner-bg">
+              <img src="./assets//images/venus/perfumeBanner.jpg">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Banner Area End -->
+
+
+
+  <!-- Category Area Starts -->
+  <section class="category-area section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 boxCatgory">
+          <img src="./assets/images/venus/p1.png" class="img-fluid" style="max-width:150px;">
+          <p>一種賦予新生命，如同走進充滿各式各樣花欉的大花園。</p>
+          <div>例如：玫瑰 / 茉莉 / 山茶 / 梔子 / 玉蘭 / 野薑 / 蓮花 / 康乃馨 / 桂花 / 鬱金香…等香精 。</div>
+
+        </div>
+        <div class="col-md-6 boxCatgory">
+          <img src="./assets/images/venus/p4.png" class="img-fluid" style="max-width:150px;">
+
+          <p>
+            給人帶來一種喜悅活潑舞動人生的新氣象。
+          </p>
+          <div>
+            例如：柑橘 / 檸檬 / 萊姆 / 白柚 / 蘋果(青/紅)…等香精。
+          </div>
+
+        </div>
+        <div class="col-md-6 boxCatgory">
+          <img src="./assets/images/venus/p2.png" class="img-fluid" style="max-width:150px;">
+
+          <p>
+            一種給人清新氣味彷彿與大自然直接接觸的感覺。
+          </p>
+          <div>
+            例如：藤蔓 / 葉子 / 松葉 / 芬多精 / 草地…等香精。
+          </div>
+
+        </div>
+        <div class="col-md-6 boxCatgory">
+          <img src="./assets/images/venus/p6.png" class="img-fluid" style="max-width:150px;">
+
+          <p>
+            青澀甘美純淨的香氣代領著一種無憂的心靈放鬆。
+          </p>
+          <div>
+            例如：烏龍茶香 / 紅茶香 / 綠茶香 / 青草茶香…等香精。
+          </div>
+
+        </div>
+        <div class="col-md-6 boxCatgory">
+          <img src="./assets/images/venus/p5.png" class="img-fluid" style="max-width:150px;">
+
+          <p>
+            一種屬於清新自然的香氣給人純潔與白淨的感覺。
+          </p>
+          <div>
+            例如：小黃瓜 / 蜜瓜 / 佛手柑 / 蘆薈 / 白柚…等香精。
+          </div>
+        </div>
+        <div class="col-md-6 boxCatgory">
+          <img src="./assets/images/venus/p3.png" class="img-fluid" style="max-width:150px;">
+
+          <p>
+            帶來一種沉穩及內斂之氣質。
+          </p>
+          <div>
+            例如：木香 / 檀香 / 檜木 / 麝香…等香精。
+          </div>
+
+        </div>
+        <div class="col-md-6 boxCatgory">
+          <img src="./assets/images/venus/p7.png" class="img-fluid" style="max-width:150px;">
+
+          <p>一種賦予廣大的冥想空間且獨一無二之專屬特定氣味。</p>
+          <div>例如：大自然的空氣 / 五行 / 海洋 / 大草原 / 森林浴…等香精。</div>
+          <br>
+          <p>另外透過生活上的特別需求，而衍生另一種別於一般香氣之變化。</p>
+          <div>例如：魚腥 / 腥臭 / 辣椒 / 辛香…等香精</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- Category Area End -->
+
+  <!-- Footer -->
+  <div w3-include-html="footer.html"></div>
+  <!-- Footer End-->
+
+
+  <script>
+    includeHTML();
+  </script>
+  <!-- Javascript -->
+  <script src="assets/js/vendor/jquery-2.2.4.min.js"></script>
+  <script src="assets/js/vendor/bootstrap-4.1.3.min.js"></script>
+  <script src="assets/js/vendor/wow.min.js"></script>
+  <script src="assets/js/vendor/owl-carousel.min.js"></script>
+  <script src="assets/js/vendor/jquery.nice-select.min.js"></script>
+  <script src="assets/js/vendor/ion.rangeSlider.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
