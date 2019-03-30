@@ -1,23 +1,26 @@
-@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700");
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600");
+/* @import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600"); */
+@import url("https://fonts.googleapis.com/earlyaccess/cwtexfangsong.css");
+
+
 
 body {
   color: #777;
-  font-family: "Microsoft JhengHei", sans-serif;
+  font-family: "Noto Serif TC", sans-serif;
   font-weight: 400
 }
 
 h1 {
   color: #222;
   text-transform: uppercase;
-  font-family: "Microsoft JhengHei", sans-serif;
+  font-family: "Noto Serif TC", sans-serif;
   font-size: 50px;
   font-weight: 700
 }
 
 h2 {
   color: #222;
-  font-family: "Microsoft JhengHei", sans-serif;
+  font-family: "Noto Serif TC", sans-serif;
   font-size: 36px;
   font-weight: 600
 }
@@ -25,14 +28,14 @@ h2 {
 h3 {
   color: #222;
   text-transform: capitalize;
-  font-family: "Microsoft JhengHei", sans-serif;
+  font-family: "Noto Serif TC", sans-serif;
   font-size: 20px;
   font-weight: 600
 }
 
 h4 {
   color: #222;
-  font-family: "Microsoft JhengHei", sans-serif;
+  font-family: "Noto Serif TC", sans-serif;
   text-transform: capitalize;
   font-size: 18px;
   font-weight: 600
@@ -40,7 +43,7 @@ h4 {
 
 h5 {
   color: #777;
-  font-family: "Microsoft JhengHei", sans-serif;
+  font-family: "Noto Serif TC", sans-serif;
   text-transform: capitalize;
   font-size: 16px;
   font-weight: 400
@@ -48,7 +51,7 @@ h5 {
 
 h6 {
   color: #777;
-  font-family: "Microsoft JhengHei", sans-serif;
+  font-family: "Noto Serif TC", sans-serif;
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 600
@@ -200,7 +203,7 @@ textarea:focus {
 
 .main-menu ul li a {
   color: #fff;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Noto Serif TC", sans-serif;
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 600;
@@ -212,8 +215,8 @@ textarea:focus {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;
   visibility: visible;
-  top: 100%;
-  left: 30px
+  top: 120%;
+  left: 0px;
 }
 
 .main-menu ul li ul.sub-menu {
@@ -407,7 +410,7 @@ textarea:focus {
 
 .banner-area .banner-bg {
   width: 100%;
-  height: 640px;
+  /* height: 640px; */
   background-color: #b0b0b0;
   background-repeat: no-repeat;
   background-position: center;
@@ -416,7 +419,7 @@ textarea:focus {
 }
 .banner-area .banner-bg img{
   width: 100%;
-  height: 640px;
+  /* height: 640px; */
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -3482,7 +3485,7 @@ h6 {
 .template-btn {
   color: #fff !important;
   background: #ff9902;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Noto Serif TC", sans-serif;
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 600;
@@ -3505,7 +3508,7 @@ h6 {
 
 .secondary-btn {
   color: #222;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Noto Serif TC", sans-serif;
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 600;
@@ -3537,7 +3540,7 @@ h6 {
 .third-btn {
   color: #fff !important;
   background: #ff9902;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Noto Serif TC", sans-serif;
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 600;
@@ -3561,7 +3564,7 @@ h6 {
 .forth-btn {
   color: #222;
   background: transparent;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Noto Serif TC", sans-serif;
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 600;
@@ -3687,7 +3690,7 @@ form .template-btn {
 
 .tab-item li {
   color: #222;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Noto Serif TC", sans-serif;
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 600;
