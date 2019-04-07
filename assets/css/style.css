@@ -6,21 +6,21 @@
 
 body {
   color: #777;
-  font-family: "Noto Serif TC", sans-serif;
+  font-family: "cwTeXFangSong", sans-serif;
   font-weight: 400
 }
 
 h1 {
   color: #222;
   text-transform: uppercase;
-  font-family: "Noto Serif TC", sans-serif;
+  font-family: "cwTeXFangSong", sans-serif;
   font-size: 50px;
   font-weight: 700
 }
 
 h2 {
   color: #222;
-  font-family: "Noto Serif TC", sans-serif;
+  font-family: "cwTeXFangSong", sans-serif;
   font-size: 36px;
   font-weight: 600
 }
@@ -28,14 +28,14 @@ h2 {
 h3 {
   color: #222;
   text-transform: capitalize;
-  font-family: "Noto Serif TC", sans-serif;
+  font-family: "cwTeXFangSong", sans-serif;
   font-size: 20px;
   font-weight: 600
 }
 
 h4 {
   color: #222;
-  font-family: "Noto Serif TC", sans-serif;
+  font-family: "cwTeXFangSong", sans-serif;
   text-transform: capitalize;
   font-size: 18px;
   font-weight: 600
@@ -43,7 +43,7 @@ h4 {
 
 h5 {
   color: #777;
-  font-family: "Noto Serif TC", sans-serif;
+  font-family: "cwTeXFangSong", sans-serif;
   text-transform: capitalize;
   font-size: 16px;
   font-weight: 400
@@ -51,7 +51,7 @@ h5 {
 
 h6 {
   color: #777;
-  font-family: "Noto Serif TC", sans-serif;
+  font-family: "cwTeXFangSong", sans-serif;
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 600
@@ -203,7 +203,7 @@ textarea:focus {
 
 .main-menu ul li a {
   color: #fff;
-  font-family: "Noto Serif TC", sans-serif;
+  font-family: "cwTeXFangSong", sans-serif;
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 600;
@@ -3485,7 +3485,7 @@ h6 {
 .template-btn {
   color: #fff !important;
   background: #ff9902;
-  font-family: "Noto Serif TC", sans-serif;
+  font-family: "cwTeXFangSong", sans-serif;
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 600;
@@ -3508,7 +3508,7 @@ h6 {
 
 .secondary-btn {
   color: #222;
-  font-family: "Noto Serif TC", sans-serif;
+  font-family: "cwTeXFangSong", sans-serif;
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 600;
@@ -3540,7 +3540,7 @@ h6 {
 .third-btn {
   color: #fff !important;
   background: #ff9902;
-  font-family: "Noto Serif TC", sans-serif;
+  font-family: "cwTeXFangSong", sans-serif;
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 600;
@@ -3564,7 +3564,7 @@ h6 {
 .forth-btn {
   color: #222;
   background: transparent;
-  font-family: "Noto Serif TC", sans-serif;
+  font-family: "cwTeXFangSong", sans-serif;
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 600;
@@ -3690,7 +3690,7 @@ form .template-btn {
 
 .tab-item li {
   color: #222;
-  font-family: "Noto Serif TC", sans-serif;
+  font-family: "cwTeXFangSong", sans-serif;
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 600;
