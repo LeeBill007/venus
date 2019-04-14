@@ -442,10 +442,10 @@ textarea:focus {
 
 @media (max-width: 575.98px) {
   .banner-area .banner-bg {
-    height: 300px
+    /* height: 300px */
   }
   .banner-area .banner-bg img{
-    height: 300px;
+    /* height: 300px; */
   }
 }
 
