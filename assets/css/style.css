@@ -9,7 +9,10 @@ body {
   font-family: "cwTeXFangSong", sans-serif;
   font-weight: 400
 }
+.pinkTitle{
 
+  color: #cc248f;
+}
 h1 {
   color: #222;
   text-transform: uppercase;
@@ -205,7 +208,7 @@ textarea:focus {
   color: #fff;
   font-family: "cwTeXFangSong", sans-serif;
   text-transform: uppercase;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 600;
   display: inline-block;
   padding: 15px
@@ -1190,7 +1193,6 @@ textarea:focus {
 
 .footer-area a {
   color: #fff;
-  text-transform: capitalize
 }
 
 .footer-area input {

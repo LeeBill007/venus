@@ -40,7 +40,8 @@
     .boxCatgory {
       margin-bottom: 30px;
     }
-    .boxCatgory span{
+
+    .boxCatgory span {
       color: #777;
       padding-left: 20px;
       font-size: 14px;
@@ -63,6 +64,15 @@
       font-size: 18px;
       font-weight: bold;
       background-color: #b31181;
+    }
+
+    .lititle {
+      min-width: 100px;
+      color: #cc248f
+    }
+
+    .inline {
+      display: inline-flex
     }
   </style>
   <script>
@@ -110,42 +120,43 @@
   <!-- Header -->
   <header class="header-area main-header">
     <div class="container">
-        <div class="row">
-            <div class="col-lg-2">
-                <div class="logo-area">
-                    <a href="index.html">
-                        <img src="assets/images/venus/logo.png" alt="logo" style="max-width: 280px;">
-                    </a>
-                </div>
-            </div>
-            <div class="col-lg-10">
-                <div class="custom-navbar">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-                <div class="main-menu">
-                    <ul>
-                        <li class="active"><a href="index.html">首頁</a></li>
-                        <li><a href="about.html">關於我們</a></li>
-                        <li><a href="#">產品項目</a>
-                            <ul class="sub-menu">
-                                <li><a href="perfume.html">香調</a></li>
-                                <li><a href="essential.html">精油</a></li>
-                                <li><a href="spa.html">SPA</a></li>
-                                <li><a href="material.html">生化原料</a></li>
-                                <li><a href="floralwater.html">花水</a></li>
-
-                            </ul>
-                        </li>
-<li><a href="index_E.html"><img src="./assets/images/venus/EN.png" style="height:20px;width:64px;"></a></li>
-
-                      </ul>
-                </div>
-            </div>
+      <div class="row">
+        <div class="col-lg-2">
+          <div class="logo-area">
+            <a href="index.html">
+              <img src="assets/images/venus/logo.png" alt="logo" style="max-width: 280px;">
+            </a>
+          </div>
         </div>
+        <div class="col-lg-10">
+          <div class="custom-navbar">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="main-menu">
+            <ul>
+              <li class="active"><a href="index.html">首頁</a></li>
+              <li><a href="about.html">關於我們</a></li>
+              <li><a href="#">產品項目</a>
+                <ul class="sub-menu">
+                  <li><a href="perfume.html">香調</a></li>
+                  <li><a href="essential.html">精油</a></li>
+                  <li><a href="spa.html">SPA</a></li>
+                  <li><a href="material.html">生化原料</a></li>
+                  <li><a href="floralwater.html">花水</a></li>
+
+                </ul>
+              </li>
+              <li><a href="index_E.html"><img src="./assets/images/venus/EN.png" style="height:20px;width:64px;"></a>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
-</header>  <!-- Header End-->
+  </header> <!-- Header End-->
 
   <!-- Banner Area Starts -->
   <section class="banner-area">
@@ -153,21 +164,22 @@
       <div class="row">
         <div class="col-lg-12 px-0">
           <div class="bannerOuter">
-              <div class="tilePosition">
-                  <div class="bannerTtile">
-                    產品項目
-                  </div>
-                  <div class="bannerSubTtile">
-                    SPA
-                  </div>
-                </div>
+            <div class="tilePosition">
+              <div class="bannerTtile">
+                產品項目
+              </div>
+              <div class="bannerSubTtile">
+                SPA
+              </div>
+            </div>
             <div class="banner-bg">
-                <div class="d-none d-md-block">
-                    <img src="./assets//images/venus/spaBanner.jpg">
-                  </div>
-                <div class="d-md-none">
-                    <img src="./assets//images/venus/spaBanner_mb.jpg">
-                  </div>            </div>
+              <div class="d-none d-md-block">
+                <img src="./assets//images/venus/spaBanner.jpg">
+              </div>
+              <div class="d-md-none">
+                <img src="./assets//images/venus/spaBanner_mb.jpg">
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -180,99 +192,128 @@
   <!-- Category Area Starts -->
   <section class="category-area section-padding">
     <div class="container">
-        <ul class="nav nav-pills">
-          <li class="nav-item">
-            <a  style="margin-left: 0px;" class="nav-link active" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home"
-              aria-selected="true">按摩泡澡精油</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile"
-              aria-selected="false">頭皮理療植萃</a>
-          </li>
+      <ul class="nav nav-pills">
+        <li class="nav-item">
+          <a style="margin-left: 0px;" class="nav-link active" data-toggle="pill" href="#pills-home" role="tab"
+            aria-controls="pills-home" aria-selected="true">按摩泡澡精油</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile"
+            aria-selected="false">頭皮理療植萃</a>
+        </li>
 
-        </ul>
-        <br>
-        <div class="tab-content" id="pills-tabContent" style="color:#000;margin-bottom: 50px;    letter-spacing: 3px;
+      </ul>
+      <br>
+      <div class="tab-content" id="pills-tabContent" style="color:#000;margin-bottom: 50px;    letter-spacing: 3px;
       line-height: 2.2;">
-          <!-- 按摩泡澡精油 -->
-          <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-            <h3>按摩泡澡精油</h3>
-            <div class="row">
-              <div class="col-md-12 boxCatgory">
-                <div class="pinkTitle">
+        <!-- 按摩泡澡精油 -->
+        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+          <h3>按摩泡澡精油</h3>
+          <div class="row">
+            <div class="col-md-12 boxCatgory">
+              <div class="">
+                <ul>
+                  <li>
+                    <div class="inline">
+                      <div class="lititle">紓解壓力</div>
+                      <div>薰衣草/橙/葡萄柚/西洋杉木</div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="inline">
+                      <div class="lititle">解壓舒鬱</div>
+                      <div>佛手柑/橙/馬鞭草</div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="inline">
+                      <div class="lititle">輕鬆舒眠</div>
+                      <div>西洋杉木/薰衣草/天竺葵/玫瑰/尤加利/洋甘菊/乳香</div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="inline">
+                      <div class="lititle">熱情再現</div>
+                      <div>玫瑰/薰衣草/天竺葵</div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="inline">
+                      <div class="lititle">舒筋活骨</div>
+                      <div>檸檬/尤加利/薄荷/洋甘菊/天竺葵</div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="inline">
+                      <div class="lititle">美胸</div>
+                      <div>天竺葵/依蘭/玫瑰/檸檬/馬鞭草</div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="inline">
+                      <div class="lititle">嫩白保濕</div>
+                      <div>葡萄柚/橙/馬鞭草/橙花/天竺葵/檸檬草</div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="inline">
+                      <div class="lititle">自在放鬆</div>
+                      <div>迷迭香/薰衣草/檸檬/尤加利/羅勒</div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="inline">
+                      <div class="lititle">紫草精油</div>
+                      <div>薄荷</div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="inline">
+                      <div class="lititle">彈力肌膚</div>
+                      <div>沒藥/橙/乳香</div>
+                    </div>
+                  </li>
+                </ul>
+
+              </div>
+            </div>
+            <div class="col-md-12 boxCatgory">
+              <div>
+                SPA按摩泡澡複方精油帶來心靈愉悅，能全方位的讓身、心重新恢復平靜狀態。在歐洲，如英、法及德國，早有許多研究發現天然純精油除了香味迷人之外，對於壓力紓解、調整情緒、緩解身心症狀、甚至在預防疾病方面，精油都提供了很好的解決之道，作為居家身心靈全面療癒的重要一環。
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 按摩泡澡精油 end -->
+        <!-- 有機精油 -->
+        <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+          <h3>有機認證精油</h3>
+          <br>
+          <div class="row">
+
+            <div class="col-md-12 boxCatgory">
+              <h4>頭皮理療植萃</h4>
+              <div class="row">
+                <div class="col-md-6">
                   <ul>
                     <li>
-                      紓解壓力 <span>薰衣草/橙/葡萄柚/西洋杉木</span>
+                      SPA頭皮理療複方精油所運用的草本植物精油可以潤澤頭皮毛髮。
                     </li>
                     <li>
-                      解壓舒鬱 <span>佛手柑/橙/馬鞭草</span>
-                    </li>
-                    <li>
-                      輕鬆舒眠 <span>西洋杉木/薰衣草/天竺葵/玫瑰/尤加利/洋甘菊/乳香</span>
-                    </li>
-                    <li>
-                      熱情再現 <span>玫瑰/薰衣草/天竺葵</span>
-                    </li>
-                    <li>
-                      舒筋活骨 <span>檸檬/尤加利/薄荷/洋甘菊/天竺葵</span>
-                    </li>
-                    <li>
-                      美胸&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <span>天竺葵/依蘭/玫瑰/檸檬/馬鞭草</span>
-                    </li>
-                    <li>
-                      嫩白保濕 <span>葡萄柚/橙/馬鞭草/橙花/天竺葵/檸檬草</span>
-                    </li>
-                    <li>
-                      自在放鬆 <span>迷迭香/薰衣草/檸檬/尤加利/羅勒</span>
-                    </li>
-                    <li>
-                      紫草精油 <span>薄荷</span>
-                    </li>
-                    <li>
-                      彈力肌膚 <span>沒藥/橙/乳香</span>
+                      頭皮相當於肌膚的延伸，需要以自然溫和的方式舒緩潤澤，而最佳來源即是以草本植物所調和而成的複方精油。
                     </li>
                   </ul>
-
                 </div>
-              </div>
-              <div class="col-md-12 boxCatgory">
-                <div>
-                  SPA按摩泡澡複方精油帶來心靈愉悅，能全方位的讓身、心重新恢復平靜狀態。在歐洲，如英、法及德國，早有許多研究發現天然純精油除了香味迷人之外，對於壓力紓解、調整情緒、緩解身心症狀、甚至在預防疾病方面，精油都提供了很好的解決之道，作為居家身心靈全面療癒的重要一環。
-
+                <div class="col-md-6">
+                  <img src="./assets//images/venus/spa_fun.png" class="img-fluid">
                 </div>
               </div>
             </div>
           </div>
-          <!-- 按摩泡澡精油 end -->
-          <!-- 有機精油 -->
-          <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
-            <h3>有機認證精油</h3>
-            <br>
-            <div class="row">
-              
-              <div class="col-md-12 boxCatgory">
-                <h4>頭皮理療植萃</h4>
-                <div class="row">
-                  <div class="col-md-6">
-                    <ul>
-                      <li>
-                          SPA頭皮理療複方精油所運用的草本植物精油可以潤澤頭皮毛髮。
-                      </li>
-                      <li>
-                          頭皮相當於肌膚的延伸，需要以自然溫和的方式舒緩潤澤，而最佳來源即是以草本植物所調和而成的複方精油。
-                      </li>
-                    </ul>
-                  </div>
-                  <div class="col-md-6">
-                    <img src="./assets//images/venus/spa_fun.png" class="img-fluid">
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- 有機精油 end -->
-
         </div>
+        <!-- 有機精油 end -->
+
+      </div>
 
     </div>
   </section>
